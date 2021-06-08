@@ -2,7 +2,6 @@ var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var list = document.getElementsByTagName("li");
-var deleteElement = document.getElementsByClassName("delete");
 
 function inputLength() {
 	return input.value.length;
